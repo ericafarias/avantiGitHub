@@ -1,0 +1,14 @@
+.containerErro {
+    width: 710px;
+    height: 88px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+}
+
+p {
+    text-align: center;
+}

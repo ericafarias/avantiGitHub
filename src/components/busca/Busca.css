@@ -1,0 +1,53 @@
+.divHeader {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divconatinerBusca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.divHeader h1 {
+    font-size: 4rem;
+}
+
+.divInput {
+    display: flex;
+    position: relative;
+}
+
+.divBusca {
+    position: absolute;
+    right: 0;
+
+    background-color: #005cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 8px;
+}
+
+.divBusca button {
+    background-color: #005cff;
+    border: 0;
+    cursor: pointer;
+}
+
+.divHeaderInput {
+    padding: 15px;
+    border-radius: 8px;
+    width: 503px;
+    height: 62px;
+}
+
+input::placeholder {
+    color: black;
+}

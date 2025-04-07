@@ -1,0 +1,47 @@
+.container {
+    background-color: #626262;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: black;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    z-index: 10;
+}
+
+.divCamada {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: 0;
+}
+
+.imgCamada {
+    color: #272727;
+}
+
+.divElipce1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.divElipce2 {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    z-index: 0;
+}
