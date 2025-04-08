@@ -12,3 +12,9 @@
 p {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .containerErro {
+        width: 300px;
+    }
+}

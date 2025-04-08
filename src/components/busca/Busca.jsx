@@ -14,7 +14,7 @@ const Busca = ({ onSearch }) => {
     return (
         <div className="divconatinerBusca ">
             <div className="divHeader">
-                <img src={logoGithub} />
+                <img src={logoGithub} className="divHeaderImg " />
                 <h1>Perfil</h1>
                 <img src={gitHub} />
             </div>

@@ -45,3 +45,10 @@
     bottom: 10px;
     z-index: 0;
 }
+
+@media (max-width: 768px) {
+    .container {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
